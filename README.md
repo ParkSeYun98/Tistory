@@ -1,3 +1,7 @@
+
+[![Readme Update](https://github.com/ParkSeYun98/Tistory/actions/workflows/main.yml/badge.svg)](https://github.com/ParkSeYun98/Tistory/actions/workflows/main.yml)
+
+
 # Hi there 👋
 
 ## 이런 환경에 익숙해요✍🏼
