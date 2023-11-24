@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --local user.email "yun12343@naver.com"
           git config --local user.name "ParkSeYun98"
-          git pull --rebase https://${{ secrets.MY_GITHUB_TOKEN }}@github.com/ParkSeYun98/Tistory.git
           git add .
-          git commit -m "Update README.md"
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update README.md" && git pull --rebase https://${{ secrets.MY_GITHUB_TOKEN }}@github.com/ParkSeYun98/Tistory.git)
           git push https://${{ secrets.MY_GITHUB_TOKEN }}@github.com/ParkSeYun98/Tistory.git
+
