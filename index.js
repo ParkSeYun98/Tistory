@@ -8,13 +8,13 @@ import Parser from "rss-parser";
 let markdownText = `[![Readme Update](https://github.com/ParkSeYun98/Tistory/actions/workflows/main.yml/badge.svg)](https://github.com/ParkSeYun98/Tistory/actions/workflows/main.yml)`;
 
 let text = `
-${markdownText}\n
-
 # Hi there 👋
 
 #### GitHub Actions와 Tistory RSS를 활용한 Tistory 자동 Commit 시스템
 
 - Tistory에 게시글을 업로드하면 Cron을 활용하여 1시간 마다 Commit을 통해 잔디를 심을 수 있다!!!
+
+${markdownText} <br>
 
 ## 📕 Latest Blog Posts
 
