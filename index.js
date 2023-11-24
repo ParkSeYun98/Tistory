@@ -5,6 +5,7 @@ import Parser from "rss-parser";
  * README.MD
  */
 
+let markdownText = `[![Readme Update](https://github.com/ParkSeYun98/Tistory/actions/workflows/main.yml/badge.svg)](https://github.com/ParkSeYun98/Tistory/actions/workflows/main.yml)`;
 
 let text = `# Hi there 👋
 
