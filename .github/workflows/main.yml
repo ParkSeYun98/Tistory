@@ -25,6 +25,7 @@ jobs:
         run: npm start
       - name: Commit README
         run: |
+          git pull https://${{ secrets.MY_GITHUB_TOKEN }}@github.com/ParkSeYun98/Tistory.git
           git add .
           git config --local user.email "yun12343@naver.com"
           git config --local user.name "ParkSeYun98"
